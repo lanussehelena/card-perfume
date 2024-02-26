@@ -100,4 +100,15 @@ button:hover {
     background-color: hsl(212, 21%, 14%);
 }
 
+@media (max-width: 375px) {
+    main {
+        grid-template-columns: 1fr;
+        width: 500px;
+        height: 900px;
+    }
+    img {
+        border-radius: 10px 10px 0 0;
+    }
+};
+
 
